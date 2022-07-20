@@ -1,6 +1,6 @@
 package io.github.tomcr00ze;
 
-public class Main { //classes start with a capital letter
+public class Main { //classes start with a capital letter and curly braces
     public static void main(String[] args) { //main method of our program, the place where execution of the program starts from
         //what can we do inside the main method/begining of our program?
         Cat x; //we can declare a variable/identifier to store the reference of an instance of the Cat class
