@@ -7,6 +7,7 @@ public class Main { //classes start with a capital letter
         //to create an instance of the class, we need: "new Cat();"
         //we can create as many instances of Cats as we want, like
         /*
+        //this creates 3 objects of type cat:
         new Cat();
         new Cat();
         new Cat();
@@ -31,5 +32,12 @@ public class Main { //classes start with a capital letter
         y.name = "Leo"; //name of y cat is now Leo
         z.name = "Kit";
 
+        x.age = 1;
+        y.age = 2;
+        z.age = 3;
+
+        //System.out.println(); --> print to the console
+        System.out.println(x.name); //will print: Tom
+        System.out.println(x.age); //will print: 1
     }
 }
