@@ -39,6 +39,6 @@ public class Main { //classes start with a capital letter
         //System.out.println(); --> print to the console
         System.out.println(x.name); //will print: Tom
         System.out.println(x.age); //will print: 1
-        //TODO: stopped at 30:27
+        //TODO:
     }
 }
