@@ -11,9 +11,19 @@ public class Main { //classes start with a capital letter
         new Cat();
         new Cat();
          */
-        c = new Cat(); //we assign c the reference of the object we created with the syntax "new Cat();"
-        //new --> new is an operator in java, it is a keyword to create instance
+        c = new Cat(); //we assign c the reference of the object we created with the instantiation syntax "new Cat();"
+        //new --> new is an operator in java, it is a keyword to create instances of objects
         //Cat(); --> Cat is a constructor in this case
         //instantiation --> the operation of creating an instance of the object (that is described by the Cat class)
+        //we create an instance somewhere in memory, and the reference to the instance is assigned to the variable we defined, in this case c
+
+        //at the same time we can create an instance AND declare the variable
+        Cat y = new Cat();
+        //the left side of the equal operator --> Cat y --> declaration
+        //the right side --> new Cat() --> instantiation using the new operator and the constructor
+
+        //JAVA 10
+        //we can create an instance with this starting in Java 10
+        var z = new Cat(); //var is a keyword
     }
 }
