@@ -24,4 +24,17 @@ public class Cat { //an object named cat
         //void --> keyword to say that the method wont return a value
         System.out.println("Meow from the Cat.java file"); //prints meow to the console
     }
+
+    void sayMeowWithMyName(){
+        System.out.println("Meow my name is: " + this.name); //"this." is a keyword
+        //it can also work without the "this.": System.out.println("Meow my name is: " + name);
+        //but "this." makes it more clearer that the "name" is the value of the object (this) that is executing the current behaviour (sayMeowWithMyName)
+        /*
+        like say for example:
+        x.name = "leo"; in Main2.java file
+        the "x" there becomes the "this" on this java file
+        this.name
+        basically "this" takes the value of the instance from which you called the behaviour
+         */
+    }
 }
