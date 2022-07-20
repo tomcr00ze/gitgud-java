@@ -26,6 +26,7 @@ public class Main2 {
 
         var x = new Cat();
         //will also print: "a cat was created" because in our Cat file, we put a print task to our constructor Cat(){}
+        //var --> java 10 keyword will automatically take the type assigned of the right side of the equal operator
         x.name = "leo";
         x.age = 1;
         x.sayMeowWithMyName();
