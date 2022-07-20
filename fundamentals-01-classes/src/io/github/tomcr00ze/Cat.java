@@ -34,7 +34,7 @@ public class Cat { //an object named cat
         x.name = "leo"; in Main2.java file
         the "x" there becomes the "this" on this java file
         this.name
-        basically "this" takes the value of the instance from which you called the behaviour
+        basically "this" takes the value of the instance from which you called the behaviour. we can omit it on our behaviour but the this makes it more readable
          */
     }
 }
