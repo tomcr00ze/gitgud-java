@@ -2,7 +2,6 @@ package io.github.tomcr00ze;
 
 public class Main2 {
     public static void main(String[] args) {
-        Cat c = new Cat();
         //note:
         //identifiers cant contain spaces or start with a number like:
         //Cat 1xyz = new Cat();
@@ -14,6 +13,10 @@ public class Main2 {
         //NOTE -- but something like a dollar sign would work, important to know for java cert exam
         //Cat x$z = new Cat();
 
+        Cat c = new Cat();
+        //will print: "a cat was created" because in our Cat file, we put a print task to our constructor Cat(){}
+        //Cat() --> default constructor, must be name of the class we are using followed by parenthesis
+
         //using behaviours/actions/tasks
         c.sayMeow(); //using dot operator, but this time to call the action of the behaviour of the instance c
         //will print: "Meow from the Cat.java file"
@@ -22,9 +25,19 @@ public class Main2 {
         //will print: Meow my name is: Tom
 
         var x = new Cat();
+        //will also print: "a cat was created" because in our Cat file, we put a print task to our constructor Cat(){}
         x.name = "leo";
         x.age = 1;
         x.sayMeowWithMyName();
         //will print: Meow my name is: leo
+        /*
+        in the end, this program will print:
+
+        a cat was created
+        Meow from the Cat.java file
+        Meow my name is: Tom
+        a cat was created
+        Meow my name is: leo
+         */
     }
 }

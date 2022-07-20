@@ -17,6 +17,13 @@ public class Cat { //an object named cat
     byte, short, int, long, float, double, char, boolean
      */
 
+
+    //we can declare our own constructor but we dont need it as we have a default constructor, this is jsut to show to create our own constructor that will print() a statement everytime the cat constructor is executed
+    //notice that unlike other methods, does not have a return type as it is a constructor. its only purpose is to create the instance and when we use a constructor in java, we use it with the new keyword
+    Cat(){
+        System.out.println("a cat was created");
+    }
+
     //behaviour --> represents what a specific object can do
     //sayMeow() is the name of a method, a behaviour/task of the object cat
     void sayMeow(){ //name of the behaviour should be an action word
