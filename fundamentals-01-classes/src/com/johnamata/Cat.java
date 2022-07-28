@@ -1,4 +1,4 @@
-package io.github.tomcr00ze; //declare name of the package/folder this class is located
+package com.johnamata; //declare name of the package/folder this class is located
 
 import java.sql.SQLOutput;
 

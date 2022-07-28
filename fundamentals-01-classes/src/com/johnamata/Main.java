@@ -1,4 +1,4 @@
-package io.github.tomcr00ze;
+package com.johnamata;
 
 public class Main { //classes start with a capital letter and curly braces
     public static void main(String[] args) { //main method of our program, the place where execution of the program starts from
